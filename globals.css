@@ -1,0 +1,29 @@
+{
+  "config": {
+    "salario": 2500,
+    "diaSalario": 5,
+    "diaFatura": 10,
+    "diaVr": 20
+  },
+  "expenses": [
+    { "id": "fixo_1", "type": "fixo", "title": "Internet", "category": "Assinaturas", "value": 120, "month": "2026-07" },
+    { "id": "fixo_2", "type": "fixo", "title": "Faculdade", "category": "Faculdade", "value": 450, "month": "2026-07" }
+  ],
+  "cards": [
+    { "id": "card_1", "title": "Curso Python", "category": "Educação", "totalValue": 600, "installments": 6, "startMonth": "2026-07" }
+  ],
+  "transport": {
+    "bus": [{ "id": "bus_1", "title": "Ônibus ida", "value": 5.0 }],
+    "train": [{ "id": "train_1", "title": "Trem ida", "value": 4.4 }],
+    "studentMonthly": 120,
+    "discountPct": 6,
+    "weekdays": [1, 2, 3, 4, 5]
+  },
+  "meal": { "valueDay": 35, "absences": 0 },
+  "investments": [
+    { "id": "inv_1", "ticker": "MXRF11", "quantity": 10, "avgPrice": 10, "manualDividendPerShare": 0.1, "risk": 3 }
+  ],
+  "goals": [
+    { "id": "goal_1", "title": "Reserva de emergência", "target": 5000, "current": 800 }
+  ]
+}
